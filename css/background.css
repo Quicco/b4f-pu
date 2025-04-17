@@ -1,0 +1,11 @@
+/* ### Background ### */
+
+/* background image/arrière(s)-plan(s) */
+
+body {
+  /* background-image: url("../img/my-car.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  
+  text-align: center;
+}

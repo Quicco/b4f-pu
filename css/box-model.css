@@ -1,0 +1,22 @@
+/* ### Box Model ### */
+
+body {
+  background-color: #191717;
+  color: white;
+}
+
+.box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+
+  border: 2px solid #e6e4e4;
+}
+
+.box_2{
+  background-color: green;
+}
+
+.box_3{
+ background-color: blue;
+}

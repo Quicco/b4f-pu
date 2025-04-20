@@ -1,0 +1,54 @@
+body {
+  font-family: "Lato";
+}
+
+.card {
+  border: 1px solid #cdcdcd;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.wrapper {
+  padding: .75rem;
+}
+
+img {
+  background: linear-gradient(45deg, rgba(239, 236, 236, 0.555), #182032e1);
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+} 
+
+.product-info {
+  color: #182032;
+}
+
+.product-title {
+  font-size: .8rem;
+  color: #182032;
+  font-weight: 500;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.product-discount {
+  color: 333;
+  font-weight: 300;
+  font-size: .75rem;
+  text-decoration: line-through;
+}
+
+.btn-cart {
+  outline: none;
+  border: none;
+  background-color: #182032;
+  color: #fff;
+  font-weight: 700;
+  font-size: .55rem;
+  padding: .5rem;
+  border-radius: 4px;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+:root {
+  --ff-body: "Rubik";
+  --ff-heading: "Playfair Display";
+
+  --bg-section: #2e4057;
+  --clr-section: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: black;  */
+
+  font-family: var(--ff-body);
+}
+
+
+header {
+  background-color: red;
+}
+
+section {
+  background-color: var(--bg-section);
+  color: var(--clr-section);
+}
+
+footer {
+  background-color: lime;
+}
+
+
+main {
+  height: 100dvh;
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 1.5rem;
+}

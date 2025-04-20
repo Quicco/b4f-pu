@@ -1,3 +1,37 @@
+:root {
+  --ff-heading: 'Bitter';
+  --ff-body: 'Kanit';
+
+  --bg-color: linear-gradient(135deg, #dddde9, #8e84a9);
+  --bg-content: #e4e3eb;
+
+  --color-body: #282828;
+  --color-heading: #000;
+}
+
+/* universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: #53585d33 0px 8px 24px;
+}
+
+/* universal styling */
+body {
+  background: var(--bg-color);
+  font-family: var(--ff-body);
+  color: var(--color);
+  line-height: 1.5;
+}
+
 /* grid layout */
 .grid-container {
   display: grid;
